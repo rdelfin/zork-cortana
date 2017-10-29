@@ -36,7 +36,11 @@ def index():
         return jsonify({"error": "401 Unauthorized: Password is invalid"}), 401
     
     if game.contains_conv(conv):
-        return jsonify({"response": game.execute_command_conv(conv, command)})
+        if command.strip() == "restart":
+            game.finish_conv(conv)
+            return jsonify({"response": game.create_conv(conv)})
+        else:
+            return jsonify({"response": game.execute_command_conv(conv, command)})
     else:
         return jsonify({"response": game.create_conv(conv)})
 
