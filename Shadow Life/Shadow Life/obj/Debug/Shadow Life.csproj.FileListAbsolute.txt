@@ -1,0 +1,44 @@
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Bot Application.dll.config
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Bot Application.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Bot Application.pdb
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Autofac.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Chronic.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.Bot.Builder.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.Bot.Connector.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Newtonsoft.Json.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.Net.Http.Formatting.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.Web.Http.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.Web.Http.WebHost.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Autofac.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.Bot.Builder.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.Bot.Connector.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\Newtonsoft.Json.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.Net.Http.Formatting.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.Web.Http.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\System.Web.Http.WebHost.xml
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\obj\Debug\Shadow Life.csprojResolveAssemblyReference.cache
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\obj\Debug\Shadow Life.csproj.CoreCompileInputs.cache
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\obj\Debug\Bot Application.dll
+C:\Users\humbe\Desktop\Shadow Life\Shadow Life\obj\Debug\Bot Application.pdb
