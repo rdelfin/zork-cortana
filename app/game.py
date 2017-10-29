@@ -12,8 +12,6 @@ def filter_message(message, first=False):
     """
     Filters out uneccessary text from console output
     """
-    print("Filtering (first=%s) \"%s\"" % (str(first), message))
-
     lines = message.split('\n')[(1 if first else 5):]
     if not first:
         lines[0] = lines[0][1:]
@@ -27,7 +25,6 @@ def filter_message(message, first=False):
     if stop < len(lines):
         lines = lines[:stop]
 
-    print("Filtered: \"%s\"" % '\n'.join(lines))
     return '\n'.join(lines)
 
 def contains_conv(conv):
@@ -56,7 +53,6 @@ def execute_command_conv(conv, command):
     """
     Execute a Zork command for a given conversation
     """
-    print("Binary: %s\nSave file:%s\nCWD: %s" % (path.abspath('gamebin/zork'), path.abspath('saves/' + conv + '.dat'), path.abspath('gamebin/')))
     zorkp = subprocess.Popen([path.abspath('gamebin/zork'), path.abspath('saves/' + conv + '.dat')],
                              cwd=path.abspath('gamebin/'),
                              stdin=subprocess.PIPE, stdout=subprocess.PIPE)
