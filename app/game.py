@@ -3,8 +3,16 @@ Accesses game state, and runs Zork executable to run game.
 """
 
 import subprocess
+import os
+from os import path
 
 CONV_GAME_MAP = set()
+
+def filter_message(message):
+    """
+    Filters out uneccessary text from console output
+    """
+    return message
 
 def contains_conv(conv):
     """
@@ -17,13 +25,30 @@ def create_conv(conv):
     """
     Creates the game for a new conversation
     """
-    zorkp = subprocess.Popen(['gamebin/zork', conv + '.dat'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-    zorkp.communicate(input='save')[0]
+    zorkp = subprocess.Popen(['gamebin/zork', path.abspath('saves/' + conv + '.dat')],
+                             cwd=path.abspath('gamebin/'), stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    message = zorkp.communicate(input='save')[0]
     zorkp.kill()
     CONV_GAME_MAP |= {conv}
 
-def execute_command_conv(conv):
+    return filter_message(message)
+
+def execute_command_conv(conv, command):
     """
     Execute a Zork command for a given conversation
     """
-    pass
+    zorkp = subprocess.Popen(['gamebin/zork', path.abspath('saves/' + conv + '.dat')],
+                             cwd=path.abspath('gamebin/'), stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    message = zorkp.communicate(input='restore\n' + command + '\nsave\nquit\ny\n')[0]
+    
+    return filter_message(message)
+
+def finish_conv(conv):
+    """
+    Finish a given conversation. Will delete from file and CONV_GAME_MAP
+    """
+    CONV_GAME_MAP -= {conv}
+    try:
+        os.remove(path.abspath('saves/' + conv + '.dat'))
+    except OSError:
+        pass
