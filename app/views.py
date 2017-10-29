@@ -21,7 +21,14 @@ def index():
     Main webhook for responses to JSON objects
     """
     json_obj = request.get_json()
-    conv = json_obj["conversation_id"];
+
+    if not "conversation_id" in json_obj:
+        return jsonify({"error": "400 Bad Request: No conversation ID field."}), 400
+
+    if not "X-Password" in request.headers:
+        return jsonify({"error": "400 Bad Request: No X-Password header field"}), 400
+
+    conv = json_obj["conversation_id"]
     command = json_obj["command"] if "command" in json_obj else ""
     password = request.headers.get('X-Password')
 
