@@ -3,8 +3,8 @@ from app import app
 
 import game
 
-@app.route('/')
 @app.route('/index', methods=['POST'])
+@app.route('/', methods=['POST'])
 def index():
     """
     Main webhook for responses to JSON objects
